@@ -17,7 +17,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 /**
  * Filter of exception into request
  *
- * @author wilson.cajisaca
+ * @author amorales
  */
 @Slf4j
 @ControllerAdvice

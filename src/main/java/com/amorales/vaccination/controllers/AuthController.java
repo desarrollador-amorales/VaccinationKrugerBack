@@ -31,13 +31,4 @@ public class AuthController {
         responseMap = authService.autenticate(authINP);
         return ResponseEntity.ok().body(responseMap);
     }
-
-    private final String getClientIP(HttpServletRequest request) {
-        final String xfHeader = request.getHeader("X-Forwarded-For");
-        if (xfHeader == null) {
-            return request.getRemoteAddr();
-        }
-        return xfHeader.split(",")[0];
-    }
-
 }
