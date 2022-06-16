@@ -23,3 +23,4 @@ Ejecutar los pasos 1, 2 y 3 a continuación  solo si al momento de desplegar el 
 
 * Los credenciales de los mismo se devuelven en formato json en los campos:
 username y password
+* Modelado de la base de datos adjunto en la carpeta documents
